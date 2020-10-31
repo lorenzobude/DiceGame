@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Dice Game</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <div id="message">Player 1 Turn</div>
+      <div class="players">
+        <div id="player1">
+          <div class="score">
+            <div id="p1-score"></div>
+          </div>
+          <span>😎</span>
+        </div>
+        <div id="player2">
+          <div class="score">
+            <div id="p2-score"></div>
+          </div>
+          <span>😼</span>
+        </div>
+      </div>
+      <div class="dice">
+        <div id="p1-dice" class="active">-</div>
+        <div>🎲</div>
+        <div id="p2-dice">-</div>
+      </div>
+      <button id="btn-roll">Roll Dice!</button>
+      <button id="btn-reset">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+  </main>
+</html>
